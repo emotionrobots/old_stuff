@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UBER | YI</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    
+    <!-- Morris -->
+    <link href="css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                   <div class="dropdown profile-element pull-down">
+                         <img alt="image" class="rounded-circle" src="img/avataraurash.png"/>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="block m-t-xs font-bold">Aurash Norouzi</span>
+                            <span class="text-muted text-xs block">Account <b class="caret"></b></span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a class="dropdown-item" href="login.html">My Profile</a></li>
+                            <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-element">
+                        UDash
+                    </div>
+                </li>
+                <li >
+                    <a href="index.html"><i class="fa fa-camera"></i> <span class="nav-label">Status Overview</span></a>
+                </li>
+                <li>
+                    <a href="device_search.html"><i class="fa fa-search"></i> <span class="nav-label">Find a Device</span><span class="fa arrow"></span> </a>
+                </li>
+                <li class="active">
+                     <ul class="nav nav-second-level">
+                        <li ><a href="index.html"> <i class="fa fa-info"></i> Device Details</a></li>
+                        <li class="active"><a href="device_files.html"><i class="fa fa-file"></i> Device Files</a></li>
+                      
+                    </ul>
+                </li>
+                   <li>
+                    <a href="index.html"><i class="fa fa-trophy"></i> <span class="nav-label">Scoring Manager</span></a>
+                </li>
+                 
+            </ul>
+
+        </div>
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                    <form role="search" class="navbar-form-custom" method="post" action="#">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+              
+                    <li>
+                    <span class="m-r-sm text-muted welcome-message">Welcome to the Dashscape Admin Panel</span>
+                     </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-sign-out"></i> Log out
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-9">
+                    <h2>File Manager</h2>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                           <a href="device_search.html">Find a Device</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            <strong>File Manager</strong>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        <div id="divfiles" class="wrapper wrapper-content animated  fadeInRight">
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Recording Detailed View</h4>
+
+        <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+                    <div class="row">
+                     <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Location of Video Recording</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <p>
+                                Hard Cornering Event ocurred here at 2:59 p.m.
+                            </p>
+                            <div class="google-map" id="map2"></div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-lg-6">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Recording of Unsafe Event</h5>
+                        </div>
+                        <div class="ibox-content">
+                             <video class ="p-h-xl " width="425" height="500" controls> <source src="img/resize_video.mp4"></video> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+             </div>
+        <div class="footer">
+            <div class="pull-right">
+                10GB of <strong>250GB</strong> Free.
+            </div>
+            <div>
+                <strong>Copyright</strong> YI Technology &copy; 2016-2019
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Flot -->
+<script src="js/plugins/flot/jquery.flot.js"></script>
+<script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="js/plugins/flot/jquery.flot.spline.js"></script>
+<script src="js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="js/plugins/flot/jquery.flot.pie.js"></script>
+<script src="js/plugins/flot/jquery.flot.symbol.js"></script>
+<script src="js/plugins/flot/jquery.flot.time.js"></script>
+
+<!-- Justgage -->
+<script src="js/raphael-2.1.4.min.js"></script>
+<script src="js/justgage.js"></script>
+
+ <!-- FooTable -->
+    <script src="js/plugins/footable/footable.all.min.js"></script>
+
+<!-- googlemaps -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf5FVJ_PzIUFf5loz7T2JBgMjWUYOPumI"></script>
+
+  <!-- Morris -->
+    <script src="js/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="js/plugins/morris/morris.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+   <script>
+        $(document).ready(function() {
+            
+                            //   <div class="file-box">
+                            //     <div class="file">
+                            //         <a href="#">
+                            //             <span class="corner"></span>
+
+                            //             <div class="image">
+                            //                <img alt="image" class="img-fluid" src="img/thumbdashvid.png">
+                            //             </div>
+                            //             <div class="file-name">
+                            //                 Hard Cornering
+                            //                 <br/>
+                            //                 <small>Date: 15:52 Feb 18, 2018</small>
+                            //                 <br/>
+                            //                 <small>Size: 9 MB</small>
+                            //                 <br/>
+                            //                 <small>Duration: 10 s</small>
+                            //             </div>
+                            //         </a>
+                            //     </div>
+                            // </div>
+                            //This code implements above html code 20 times
+                            for (var i = 0; i <= 20; i++) {
+                            var file_box = document.createElement('div');
+                            file_box.className="file-box";
+                            var file = document.createElement('div');
+                            file.className="file";
+                            var corner = document.createElement('span');
+                            corner.className="corner";
+                            var image = document.createElement('div');
+                            image.className="image";
+                            var img = document.createElement('img');
+                            img.className="img-fluid";
+                            img.alt="img"
+                            img.src="img/thumbdashvid.png"
+                            var linkmodal = document.createElement('a');
+                            linkmodal.href = "#myModal"
+                            linkmodal.id = i+"modal";
+                            file.appendChild(linkmodal);
+                            file_box.appendChild(file);
+                            linkmodal.appendChild(corner);
+                            linkmodal.appendChild(image);
+                            image.appendChild(img);
+                            var file_name = document.createElement('div');
+                            file_name.className="file-name";
+                            var node = document.createTextNode("Hard Cornering");
+                            file_name.appendChild(node);
+                            var linebreak = document.createElement("br");
+                            file_name.appendChild(linebreak)
+                            small = document.createElement('small');
+                            var node2 = document.createTextNode("Date: 15:52 Feb 18, 2018");
+                            small.appendChild(node2);
+                            file_name.appendChild(small);
+                            var linebreak = document.createElement("br");
+                            file_name.appendChild(linebreak);
+                            small2 = document.createElement('small');
+                            var node3 = document.createTextNode("Size: 9 MB");
+                            small2.appendChild(node3);
+                            file_name.appendChild(small2);
+                            var linebreak = document.createElement("br");
+                            file_name.appendChild(linebreak);
+                            smalldur = document.createElement('small');
+                            var nodedur = document.createTextNode("Duration: 10 s");
+                            smalldur.appendChild(nodedur);
+                            file_name.appendChild(smalldur);
+                            linkmodal.appendChild(file_name);
+                            var element = document.getElementById("divfiles");
+                            element.appendChild(file_box);
+                            document.getElementById(i+"modal").onclick = function() {myFunction()};
+                            console.log(file_box);               }
+                            function myFunction() {
+  $("#myModal").modal();
+}
+
+                            var map = new google.maps.Map(document.getElementById('map2'), {
+          zoom: 4,
+          center: {lat: 29, lng: -95}
+        });
+        var infowindow = new google.maps.InfoWindow({
+          animation: google.maps.Animation.DROP,
+          content: "29, -95"
+        });
+        var image = 'img/profile_small.jpg';
+        var marker = new google.maps.Marker({
+          position: {lat: 29, lng: -95},
+          map: map,
+         animation: google.maps.Animation.DROP,
+
+          
+        });
+        // infowindow.open(map, marker);
+                marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+
+
+
+           
+        });
+    </script>
+
+</body>
+
+</html>
