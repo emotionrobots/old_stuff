@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid2JPEG</folder>
+        <filename>pedestrian_1323816399_avi_image10.jpg</filename>
+        <path>./Vid2JPEG/pedestrian_1323816399_avi_image10.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>pedestrianCrossing</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>606</xmin>
+                        <ymin>262</ymin>
+                        <xmax>637</xmax>
+                        <ymax>306</ymax>
+                </bndbox>
+        </object>
+</annotation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid0JPEG</folder>
+        <filename>stop_1323803184_avi_image26.jpg</filename>
+        <path>./Vid0JPEG/stop_1323803184_avi_image26.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>stop</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>629</xmin>
+                        <ymin>7</ymin>
+                        <xmax>667</xmax>
+                        <ymax>44</ymax>
+                </bndbox>
+        </object>
+</annotation>

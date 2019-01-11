@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid0JPEG</folder>
+        <filename>signalAhead_1323804318_avi_image15.jpg</filename>
+        <path>./Vid0JPEG/signalAhead_1323804318_avi_image15.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>keepRight</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>103</xmin>
+                        <ymin>65</ymin>
+                        <xmax>135</xmax>
+                        <ymax>101</ymax>
+                </bndbox>
+        </object>
+</annotation>

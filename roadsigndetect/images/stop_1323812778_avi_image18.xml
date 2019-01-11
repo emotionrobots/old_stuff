@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid1JPEG</folder>
+        <filename>stop_1323812778_avi_image18.jpg</filename>
+        <path>./Vid1JPEG/stop_1323812778_avi_image18.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>stop</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>584</xmin>
+                        <ymin>177</ymin>
+                        <xmax>621</xmax>
+                        <ymax>212</ymax>
+                </bndbox>
+        </object>
+</annotation>

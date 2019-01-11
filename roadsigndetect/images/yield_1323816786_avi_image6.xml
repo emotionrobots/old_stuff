@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid2JPEG</folder>
+        <filename>yield_1323816786_avi_image6.jpg</filename>
+        <path>./Vid2JPEG/yield_1323816786_avi_image6.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>yield</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>476</xmin>
+                        <ymin>271</ymin>
+                        <xmax>495</xmax>
+                        <ymax>288</ymax>
+                </bndbox>
+        </object>
+</annotation>

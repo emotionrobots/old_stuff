@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid5JPEG</folder>
+        <filename>pedestrian_1323822718_avi_image0.jpg</filename>
+        <path>./Vid5JPEG/pedestrian_1323822718_avi_image0.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>pedestrianCrossing</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>446</xmin>
+                        <ymin>212</ymin>
+                        <xmax>466</xmax>
+                        <ymax>237</ymax>
+                </bndbox>
+        </object>
+</annotation>

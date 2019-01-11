@@ -1,0 +1,73 @@
+item {
+  name: "merge"
+  id: 1
+}
+item {
+  name: "stop"
+  id: 2
+}
+item {
+  name: "signalAhead"
+  id: 3
+}
+item {
+  name: "addedLane"
+  id: 4
+}
+item {
+  name: "yield"
+  id: 5
+}
+item {
+  name: "pedestrianCrossing"
+  id: 6
+}
+item {
+  name: "schoolSpeedLimit25"
+  id: 7
+}
+item {
+  name: "speedLimit25"
+  id: 8
+}
+item {
+  name: "speedLimit35"
+  id: 9
+}
+item {
+  name: "speedLimit40"
+  id: 10
+}
+item {
+  name: "speedLimit45"
+  id: 11
+}
+item {
+  name: "speedLimit50"
+  id: 12
+}
+item {
+  name: "speedLimit55"
+  id: 13
+}
+item {
+  name: "speedLimit65"
+  id: 14
+}
+item {
+  name: "speedLimitUrdbl"
+  id: 15
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

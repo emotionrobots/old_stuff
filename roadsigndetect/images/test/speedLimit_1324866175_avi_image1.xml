@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid8JPEG</folder>
+        <filename>speedLimit_1324866175_avi_image1.jpg</filename>
+        <path>./Vid8JPEG/speedLimit_1324866175_avi_image1.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>640</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>speedLimitUrdbl</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>410</xmin>
+                        <ymin>239</ymin>
+                        <xmax>421</xmax>
+                        <ymax>253</ymax>
+                </bndbox>
+        </object>
+</annotation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid3JPEG</folder>
+        <filename>speedLimit_1323819361_avi_image19.jpg</filename>
+        <path>./Vid3JPEG/speedLimit_1323819361_avi_image19.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>speedLimit45</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>569</xmin>
+                        <ymin>256</ymin>
+                        <xmax>600</xmax>
+                        <ymax>291</ymax>
+                </bndbox>
+        </object>
+</annotation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid3JPEG</folder>
+        <filename>addedLane_1323820215_avi_image10.jpg</filename>
+        <path>./Vid3JPEG/addedLane_1323820215_avi_image10.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>addedLane</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>455</xmin>
+                        <ymin>276</ymin>
+                        <xmax>494</xmax>
+                        <ymax>313</ymax>
+                </bndbox>
+        </object>
+</annotation>

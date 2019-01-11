@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid2JPEG</folder>
+        <filename>speedLimit_1323817452_avi_image20.jpg</filename>
+        <path>./Vid2JPEG/speedLimit_1323817452_avi_image20.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>704</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>signalAhead</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>322</xmin>
+                        <ymin>333</ymin>
+                        <xmax>341</xmax>
+                        <ymax>350</ymax>
+                </bndbox>
+        </object>
+</annotation>

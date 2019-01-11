@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+        <folder>Vid11JPEG</folder>
+        <filename>signalAhead_1324867127_avi_image2.jpg</filename>
+        <path>./Vid11JPEG/signalAhead_1324867127_avi_image2.jpg</path>
+        <source>
+                <database>Unknown</database>
+        </source>
+        <size>
+                <width>640</width>
+                <height>480</height>
+                <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+                <name>signalAhead</name>
+                <pose>Unspecified</pose>
+                <truncated>0</truncated>
+                <difficult>0</difficult>
+                <bndbox>
+                        <xmin>395</xmin>
+                        <ymin>243</ymin>
+                        <xmax>412</xmax>
+                        <ymax>260</ymax>
+                </bndbox>
+        </object>
+</annotation>
